@@ -1,0 +1,54 @@
+body{ 
+    font-family: Tahoma, Arial, sans-serif; padding: 20px; 
+}
+.step {
+    margin: 14px 0;
+    width: 100%; 
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+input:focus{
+    outline: none;
+}
+button{
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.desc { 
+    margin-bottom: 6px;
+    font-weight: bold; 
+}
+.row {
+    display: flex;
+    gap: 6px;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.br {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.box {
+    flex: 1 1 60px; 
+    min-width: 60px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 6px;
+    background: #f4f4f4;
+    direction: ltr;
+    box-sizing: border-box;
+}
+.cmp{
+    background: #ffd54f;
+    border-color: #e65100; 
+}
+.sorted { background: #c8e6c9;
+}
